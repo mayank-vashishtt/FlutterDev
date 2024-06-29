@@ -1,0 +1,54 @@
+Dart is an open source lang developed by google
+Flutter used Dart 
+
+Dart comes with 2 compilation processes
+jit compiler -- just in time <during development used this for fast iteration and immediate feedback >
+aot compiler -- ahead of time <during deployment >
+
+sdk - software development kit 
+
+dynamic is a datatype in dart to put any value like number,string
+
+'${greeting} yoo'
+if you wanna use normal dollar - use it as /$213
+
+multi line string = ''' hello 
+masa ''' 
+
+var/final/const 
+
+mutability -- value can be changed after set 
+inmuatability -- value cant be changed after set  
+
+DateTime.now()
+
+final is a runtime const 
+const is a compile time const
+
+datatype? -- syntax shows that we can have null value 
+
+String? letter;   -- sound null safety 
+intitates with the null value 
+
+letter!.operation  -- used to tell this variable is not null 
+letter?.opeartion -- to if this is not null and if it is null then print null  
+letter?.opeartion??0 -- if null then print 0 
+
+ternary operation 
+switch values  
+switch(var){
+    case --- :
+      me kya 
+
+
+    default:
+       me kya
+
+       use break in switch condn empty one
+}
+for and while loops are entry control loops 
+
+do while loops 
+do{
+
+}while(  );
